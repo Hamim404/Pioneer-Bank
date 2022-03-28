@@ -1,0 +1,34 @@
+body {
+    padding: 150px;
+  }
+  input:hover{
+      border:1px solid black!important;
+      transition: 0.2s ease-in;
+  }  
+  input{
+      color:black!important;
+  }
+  .submit-area {
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 15px gray;
+  }
+  #transaction-area {
+    display: none;
+  }
+  .deposit {
+    background-image:linear-gradient(to left, orange, red) ;
+  }
+  .withdraw {
+    background-image:linear-gradient(to left, #95ff21, green) ;
+  }
+  .balance {
+    background-image:linear-gradient(to left, cyan, blue) ;
+  }
+  .status {
+    color: white;
+    margin: 0 20px;
+    padding: 10px 25px;
+    border-radius: 10px;
+  }
